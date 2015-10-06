@@ -76,8 +76,8 @@ function addWardMapCentered(geoJsonFile) {
 
     d3.json(geoJsonFile, function (json) {
         // create a first guess for the projection
-        //console.log(json.objects);
-        var wards = topojson.feature(json, json.objects.neighborhoods);
+        console.log(json.objects);
+        var wards = topojson.feature(json, json.objects.tracts);
         //var tifs = topojson.feature(json, json.objects.tifs);
         //var tracts = topojson.feature(json, json.objects.tracts);
         //var precincts = topojson.feature(json, json.objects.precincts);
