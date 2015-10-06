@@ -1,0 +1,6 @@
+10/5/15
+download shapefile and open in qgis (add vector layer, .shp file)
+
+right-click layer to save as, change CRS to WG84 (or suitable), save as geoJSON.
+
+open geoJSON file in mapshaper, rename layer, simplify and export as topoJSON.

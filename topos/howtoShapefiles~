@@ -1,0 +1,3 @@
+download shapefile and load into qgis (vector.add)
+save layer as kml
+load kml file and save as geojson, changing CRS as neccesary
